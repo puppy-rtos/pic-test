@@ -7,16 +7,16 @@
         {
             "name": "Cortex Debug",
             "cwd": "${workspaceFolder}",
-            "executable": "build/gcc/cortex-m4/debug/kernel.elf",
+            "executable": "build/windows/cortex-m4/debug/kernel.elf",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "Reset_handler",
             "servertype": "stlink",
-            "armToolchainPath": "D:\\Progm\\RT-ThreadStudio\\repo\\Extract\\ToolChain_Support_Packages\\ARM\\GNU_Tools_for_ARM_Embedded_Processors\\10.2.1\\bin",
-            "gdbPath": "D:\\Progm\\RT-ThreadStudio\\repo\\Extract\\ToolChain_Support_Packages\\ARM\\GNU_Tools_for_ARM_Embedded_Processors\\10.2.1\\bin\\arm-none-eabi-gdb.exe",
-            "stlinkPath": "D:\\Progm\\RT-ThreadStudio\\repo\\Extract\\Debugger_Support_Packages\\STMicroelectronics\\ST-LINK_Debugger\\1.6.0\\ST-LINK_gdbserver.exe",
-            "stm32cubeprogrammer": "D:\\Progm\\RT-ThreadStudio\\repo\\Extract\\Debugger_Support_Packages\\STMicroelectronics\\ST-LINK_Debugger\\1.6.0\\tools\\bin",
-            "svdFile": "D:/Progm/STM32/CubeProgrammer/SVD/STM32F412.svd"
+            "armToolchainPath": "D:/Progrem/arm-gnu-toolchain-12.2.rel1\\bin",
+            "gdbPath": "D:/Progrem/arm-gnu-toolchain-12.2.rel1\\bin\\arm-none-eabi-gdb.exe",
+            "stlinkPath": "D:/Progrem/ST-LINK_Debugger\\1.6.0\\ST-LINK_gdbserver.exe",
+            "stm32cubeprogrammer": "D:/Progrem/ST-LINK_Debugger\\1.6.0\\tools\\bin",
+            // "svdFile": "D:/Progm/STM32/CubeProgrammer/SVD/STM32F412.svd"
         }
     ]
 }
